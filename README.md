@@ -8,6 +8,7 @@ Nesta primeira etapa, o site deverá ter 2 páginas, uma com o formulário de bu
 
 Para este projeto, você deverá utilizar:
 
+- [Yarn](https://yarnpkg.com/lang/en/)
 - Node.js
 - Módulo [node-fetch](https://www.npmjs.com/package/node-fetch), para buscar dados da api;
 - Módulo [dotenv](https://www.npmjs.com/package/dotenv), para ler suas variáveis de ambiente;
