@@ -1,0 +1,19 @@
+{
+  "name": "desafio-nyt-api",
+  "author": "José Luiz Coe - https://github.com/joseluizcoe",
+  "version": "1.0.0",
+  "description": "Neste projeto, você deverá entregar um site de busca de notícias. A fonte de dados será o site do jornal `New York Times`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-google": "^0.14.0",
+    "husky": "^3.0.9"
+  },
+  "dependencies": {
+  }
+}
