@@ -1,7 +1,10 @@
 {{#each listOfArticles}}
     <div class="article">
-        <h2>{{this.title}}</h2>
-        <img src="{{this.thumbnail_standard}}">
+        <div class="text">
+            <a href="{{this.url}}"><h2>{{this.title}}</h2></a>
+            <p>{{this.abstract}}</p>
+        </div>
+        <img src="{{this.multimedia.1.url}}">
     </div>
     <br>
 {{/each}}

@@ -10,10 +10,43 @@ body {
     background-color: #f7f7f7;
 }
 
+.navbar > a {
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form button {
+    outline: none;
+    font-weight: bold;
+}
+
+form input {
+    margin-left: 20px;
+    margin-right: 20px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+}
+
 .logo {
     background-image: url("/images/logo.png");
     background-position: center;
-    width: 200px;
+    width: 300px;
     height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -30,6 +63,22 @@ body {
     flex-direction: row;
     justify-content: space-between;
     width: 70%;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.article > .text > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.article > .text > p {
+    color: white;
+}
+
+.article > .text {
+    margin-right: 50px;
 }
 
 .article > img {

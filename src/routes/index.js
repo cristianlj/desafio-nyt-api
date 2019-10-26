@@ -41,8 +41,6 @@ const topDay = (request, response) => {
       });
 };
 
-
-
 module.exports = {
   home,
   search,
