@@ -1,16 +1,16 @@
 require('dotenv').config();
 
-const {home, search, email, topDay} = require("./routes");
+const {home, search, email, topDay} = require("./src/routes");
 
 const express = require('express');
 const hbs = require('hbs');
 const bodyParser = require('body-parser');
 
 const app = express();
-hbs.registerPartials(`${__dirname}/views/partials`);
+hbs.registerPartials(`${__dirname}/src/views/partials`);
 app.set('view engine', 'hbs');
-app.set('views', `${__dirname}/views`);
-app.use(express.static(`${__dirname}/public`))
+app.set('views', `${__dirname}/src/views`);
+app.use(express.static(`${__dirname}/src/public`))
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', home);
