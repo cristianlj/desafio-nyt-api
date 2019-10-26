@@ -59,12 +59,17 @@ form input {
 }
 
 .article {
+    transition: all 0.2s ease;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 70%;
     padding: 25px;
     border-radius: 5px;
+}
+
+.article:hover {
+    width: 73%;
 }
 
 .article > .text > a {
