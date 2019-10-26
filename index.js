@@ -19,6 +19,6 @@ app.get('/email', email);
 app.get('/top', topDay);
 
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
     console.log('#NYT LISTNEING')
 });
