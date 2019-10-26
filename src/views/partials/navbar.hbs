@@ -1,10 +1,12 @@
-<h1>Search NYT</h1>
+<div class="navbar">
+    <div class="logo"></div>
+    <form action="/search-results" method="post">
+        <label>Search</label>
+        <input name="name"/>
+        <button type="submit">search</button>
+    </form>
 
-<form action="/search-results" method="post">
-    <label>Search</label>
-    <input name="name"/>
-    <button type="submit">search</button>
-</form>
-
-<a href="/">Home</a>
-<a href="/email">Most emailed Stories</a>
+    <a href="/">Home</a>
+    <a href="/email">Most emailed Stories</a>
+    <a href="/top">top stories from today</a>
+</div>

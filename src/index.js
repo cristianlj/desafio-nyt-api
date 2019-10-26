@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const {home, search, email} = require("./routes");
+const {home, search, email, topDay} = require("./routes");
 
 const express = require('express');
 const hbs = require('hbs');
@@ -16,6 +16,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/', home);
 app.post('/search-results', search);
 app.get('/email', email);
+app.get('/top', topDay);
+
 
 app.listen(3000, () => {
     console.log('#NYT LISTNEING')

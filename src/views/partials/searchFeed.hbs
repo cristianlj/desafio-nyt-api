@@ -1,7 +1,7 @@
-<h1>feed</h1>
-
 {{#each listOfArticles}}
-    <img src="https://nytimes.com/{{this.multimedia.0.url}}"">
-    {{this.headline.main}}
+    <div class="article">
+        <h2>{{this.headline.main}}</h2>
+        <img src="https://nytimes.com/{{this.multimedia.0.url}}">
+    </div>
     <br>
 {{/each}}
