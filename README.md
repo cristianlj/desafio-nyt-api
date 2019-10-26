@@ -21,10 +21,11 @@ O entregável será um site de notícias. Para efeitos didáticos, usaremos como
 
 ## Desafios comportamentais:
 
-  * Leitura e compreensão de Documentação de módulos.
-  * Leitura de documentação de API
-  * Boas práticas de código Js
-  * Escrever documentação sobre projetos.
+  * Organização;
+  * Leitura e compreensão de Documentação de módulos;
+  * Leitura de documentação de API;
+  * Boas práticas de código JS;
+  * Escrever documentação sobre projetos;
   * Aprender novos módulos.
 
 
@@ -97,14 +98,14 @@ Logo abaixo do formulário de busca, deverá ser carregada uma lista com as 10 �
     - O nome do campo de busca deve ser `q`, de "query".
     - Ao clicar no botão `buscar`, o usuário deve ser redirecionado para uma nova página `/search-results`
 
-Abaixo do formulário, deverá ser exibida uma lista com as últimas notícias de hoje
+Abaixo do formulário, deverá ser exibida uma lista com as últimas notícias de hoje.
 
 ## Pagina de resultado de busca
 
   - A página `/search-results` deve conter o resultado da busca pela palavra chave digitada pelo usuário;
   - O visual do resultado de busca deve ser igual ao do [site oficial do The New York Times](https://www.nytimes.com/search?dropmab=true&query=brazil&sort=best)
-  - Ao clicar em uma notícia, o usuário deverá ser direcionado para a notícia no site;
-  - Caso a busca não tenha resultado, deverá retornar uma mensagem informando que não tem resultado e, logo abaixo, a listagem das 10 últimas noticias de hoje.
+  - Ao clicar em uma notícia, o usuário deverá ser direcionado para a notícia no site do The New York Times;
+  - Caso a busca não tenha resultado, deverá retornar uma mensagem informando que não tem resultado, uma caixa de busca (identica a da página inicial) e, logo abaixo, a listagem das 10 últimas noticias de hoje.
 
 ## Página de noticias mais vistas hoje
 
