@@ -1,5 +1,4 @@
-# aula-promise-nyt-api
-Promises e consumo de api
+# Desafio - Busca de notícias - New York Times
 
 Neste projeto, você deverá entregar um site de busca de notícias. A fonte de dados será o site do jornal `New York Times`.
 
@@ -54,3 +53,6 @@ O projeto deve ter:
   * titulo;
   * descrição;
   * Link para a notícia no site do NYT.
+  - O visual do sistema deve seguir os padrões do site oficial do The New York Times. 
+    * [Veja a Página de busca](https://www.nytimes.com/search?dropmab=true&query=brazil&sort=best)
+
