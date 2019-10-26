@@ -44,7 +44,7 @@ Para este projeto, você deverá utilizar:
 
 ## Instruções iniciais
 
-Este projeto já vem com scripts de `pré-commit` e `pré-push` configurados para o padrão de código utilizado pelo time do `Google`. Isso significa que seu código deverá seguir os padrões utilizados no mercado. É uma excelente oportunidade de praticar boas práticas. <3
+Este projeto já vem com scripts de `pré-commit` e `pré-push` configurados para o [padrão de código utilizado pelo time do `Google`](https://google.github.io/styleguide/javascriptguide.xml). É uma excelente oportunidade de aprender e aplicar boas práticas de código. <3
 
 #### Leia as documentações dos módulos
 
