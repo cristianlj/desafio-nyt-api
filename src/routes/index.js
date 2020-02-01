@@ -6,7 +6,8 @@ const home = (request, response) => {
       .then((json) => {
         // console.log(json);
         const results = json.results;
-        response.render('index', {results});
+       // response.render('index', {results});
+        response.status(200).json(results);
       });
 };
 
@@ -17,7 +18,8 @@ const search = (request, response) => {
       .then((json) => {
         const results = json.response.docs;
         // console.log({results});
-        response.render('search', {results});
+       // response.render('search', {results});
+       response.status(200).json(results);
       });
 };
 
@@ -27,7 +29,8 @@ const email = (request, response) => {
       .then((json) => {
         const results = json.results;
         // console.log({results});
-        response.render('email', {results});
+       // response.render('email', {results});
+        response.status(200).json(results);
       });
 };
 
@@ -37,7 +40,8 @@ const topDay = (request, response) => {
       .then((json) => {
         const results = json.results;
         // console.log({results});
-        response.render('top', {results});
+       // response.render('top', {results});
+        response.status(200).json(results);
       });
 };
 
